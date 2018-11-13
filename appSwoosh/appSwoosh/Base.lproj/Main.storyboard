@@ -18,24 +18,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welcomeScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="Mle-OC-oxy">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcomeScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="Mle-OC-oxy">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Hio-I7-wZx">
-                                <rect key="frame" x="124" y="20" width="126" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Hio-I7-wZx">
+                                <rect key="frame" x="128" y="40" width="119" height="20"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bj-ZR-iP5">
-                                <rect key="frame" x="50" y="143" width="275" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bj-ZR-iP5">
+                                <rect key="frame" x="83" y="143" width="209.5" height="57.5"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="42"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6h-3t-LQi">
-                                <rect key="frame" x="50" y="215" width="275" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6h-3t-LQi">
+                                <rect key="frame" x="50" y="215" width="275" height="27.5"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -58,6 +54,18 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mle-OC-oxy" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2Yj-iO-zt0"/>
+                            <constraint firstItem="Mle-OC-oxy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="53J-yJ-mGp"/>
+                            <constraint firstItem="Mle-OC-oxy" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5vv-9m-Fev"/>
+                            <constraint firstItem="3bj-ZR-iP5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6VG-XB-fNd"/>
+                            <constraint firstItem="Hio-I7-wZx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="XHU-0k-NjO"/>
+                            <constraint firstItem="Mle-OC-oxy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="b44-NR-LYL"/>
+                            <constraint firstItem="Hio-I7-wZx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lQ3-XX-9jr"/>
+                            <constraint firstItem="3bj-ZR-iP5" firstAttribute="top" secondItem="Hio-I7-wZx" secondAttribute="bottom" constant="83" id="lkT-6B-PXp"/>
+                            <constraint firstItem="3bj-ZR-iP5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ll7-Wj-B7f"/>
+                            <constraint firstItem="e6h-3t-LQi" firstAttribute="top" secondItem="3bj-ZR-iP5" secondAttribute="bottom" constant="14.5" id="zDY-aG-4rT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
