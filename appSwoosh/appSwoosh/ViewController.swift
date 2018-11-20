@@ -16,6 +16,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
+    // interface builder action, fuction that gets called when we click the back button. call the fuction whatever you want. You must also control drag the button to the exit button on the top of the view controller.
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
+        
+    }
 
 
 }
